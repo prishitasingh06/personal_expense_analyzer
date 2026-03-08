@@ -1,79 +1,96 @@
-import streamlit as st
+import os
 import pickle
-from utils import predict_category
+import streamlit as st
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from utils import load_data, train_model, predict_category
+
+# --------------------------
+# Paths
+# --------------------------
+BASE_DIR = os.path.dirname(__file__)  # folder of app.py
+DATA_PATH = os.path.join(BASE_DIR, 'expense_a.csv')
+MODEL_DIR = os.path.join(BASE_DIR, 'models')
+MODEL_PATH = os.path.join(MODEL_DIR, 'expense_model.pkl')
+
+# Ensure models folder exists
+os.makedirs(MODEL_DIR, exist_ok=True)
+
+# --------------------------
+# Train model if missing
+# --------------------------
+if not os.path.exists(MODEL_PATH):
+    st.warning("No trained model found. Training model now...")
+    df_train = load_data(DATA_PATH)
+    train_model(df_train, save_path=MODEL_PATH)  # you can modify train_model to accept save_path
+    st.success("Model trained and saved!")
+
+# --------------------------
+# Load model
+# --------------------------
+with open(MODEL_PATH, 'rb') as f:
+    model, vectorizer, numeric_cols = pickle.load(f)
+
+st.success("Model loaded successfully!")
+
+# --------------------------
+# Streamlit UI
 # Pastel background and button styling via CSS
+# --------------------------
 st.markdown("""
 <style>
-    html, body, .main {
-        background-color: #fef9f4 !important;
-        color: #333333 !important;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    }
-    /* Buttons */
-    div.stButton > button {
-        background-color: #a3cef1 !important;
-        color: black !important;
-        border-radius: 10px !important;
-        padding: 0.5em 1em !important;
-        font-weight: 600 !important;
-        transition: background-color 0.3s ease !important;
-    }
-    div.stButton > button:hover {
-        background-color: #89b8e0 !important;
-        color: white !important;
-    }
+html, body, .main {
+    background-color: #fef9f4 !important;
+    color: #333333 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+/* Buttons */
+div.stButton > button {
+    background-color: #a3cef1 !important;
+    color: black !important;
+    border-radius: 10px !important;
+    padding: 0.5em 1em !important;
+    font-weight: 600 !important;
+    transition: background-color 0.3s ease !important;
+}
+div.stButton > button:hover {
+    background-color: #89b8e0 !important;
+    color: white !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
-# Load trained model
-with open('../models/expense_model.pkl', 'rb') as f:
-    model, vectorizer, numeric_cols = pickle.load(f)
+st.title("Personal Expense Analyzer 💳")
 
-st.title("Personal Expense Analyzer💳")
-
+# User inputs
 Payee = st.text_input("Payee Name")
 amount = st.number_input("Transaction Amount", min_value=0.0, step=0.01)
 date = st.date_input("Transaction Date", datetime.date.today())
 
 if st.button("Predict Category"):
-    category = predict_category(
-        Payee, amount, date,
-        model, vectorizer, numeric_cols
-    )
+    category = predict_category(Payee, amount, date, model, vectorizer, numeric_cols)
     st.success(f"Predicted Category: {category}")
 
-# upload CSV and show predictions
-uploaded_file = st.file_uploader("Upload CSV of Transactions", type=["csv"], key="upload1")
-
+# CSV upload
+uploaded_file = st.file_uploader("Upload CSV of Transactions", type=["csv"])
 if uploaded_file:
     uploaded_file.seek(0)
-
     try:
         df = pd.read_csv(uploaded_file, encoding='utf-8')
     except UnicodeDecodeError:
         uploaded_file.seek(0)
         df = pd.read_csv(uploaded_file, encoding='latin1')
 
-    df['PredictedCategory'] = df.apply(lambda row:
-        predict_category(
-            row['Payee'],
-            row['Amount'],
-            row['Date'],
-            model,
-            vectorizer,
-            numeric_cols
-        ), axis=1
-    )
+    # Predict categories
+    df['PredictedCategory'] = df.apply(lambda row: predict_category(
+        row['Payee'], row['Amount'], row['Date'], model, vectorizer, numeric_cols), axis=1)
 
     st.dataframe(df)
 
     st.subheader("📊 Expense Analytics")
-
     df['Date'] = pd.to_datetime(df['Date'])
 
     # Use pastel palette from seaborn
@@ -105,7 +122,7 @@ if uploaded_file:
     ax3.set_xlabel("Date")
     st.pyplot(fig3)
 
-    # 4️4. Monthly Spending
+    # 4️. Monthly Spending
     st.write("### Monthly Spending")
 
     monthly_spend = df.groupby(df['Date'].dt.to_period('M'))['Amount'].sum()
