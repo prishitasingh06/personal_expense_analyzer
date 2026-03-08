@@ -1,0 +1,401 @@
+Date,Payee,Amount,Category
+2025-03-02,Cineplex,39.63,Entertainment
+2025-03-03,Starbucks,146.61,Coffee
+2025-03-04,Uber Eats,41.78,Food
+2025-03-05,Swarovski,107.34,Shopping
+2025-03-06,Shell Gas,76.13,Transportation
+2025-03-07,Halibut house,95.04,Food
+2025-03-08,Uber Eats,26.72,Food
+2025-03-09,Pandora,122.66,Shopping
+2025-03-10,Walmart,5.41,Groceries
+2025-03-11,Cineplex,110.92,Entertainment
+2025-03-12,Walmart,146.64,Groceries
+2025-03-13,Tim Hortons,68.08,Coffee
+2025-03-14,Pandora,129.99,Shopping
+2025-03-15,Pasta House,33.85,Food
+2025-03-16,Tim Hortons,34.26,Coffee
+2025-03-17,Uber Eats,83.28,Food
+2025-03-18,Swarovski,29.09,Shopping
+2025-03-19,Halibut house,90.69,Food
+2025-03-20,Halibut house,122.86,Food
+2025-03-21,Pasta House,109.6,Food
+2025-03-22,Amazon,133.85,Shopping
+2025-03-23,Shell Gas,54.21,Transportation
+2025-03-24,Cineplex,14.97,Entertainment
+2025-03-25,Pasta House,134.28,Food
+2025-03-26,Apple Store,47.18,Shopping
+2025-03-27,Pandora,97.18,Shopping
+2025-03-28,Shell Gas,72.82,Transportation
+2025-03-29,Chungchun,54.62,Food
+2025-03-30,Halibut house,132.54,Food
+2025-03-31,Shell Gas,35.66,Transportation
+2025-04-01,Amazon,115.24,Shopping
+2025-04-02,Tim Hortons,99.77,Coffee
+2025-04-03,Swarovski,88.88,Shopping
+2025-04-04,Walmart,105.06,Groceries
+2025-04-05,Netflix,102.8,Entertainment
+2025-04-06,Uber,13.64,Transportation
+2025-04-07,Cineplex,62.84,Entertainment
+2025-04-08,Apple Store,115.94,Shopping
+2025-04-09,Halibut house,34.55,Food
+2025-04-10,Tim Hortons,38.96,Coffee
+2025-04-11,Pasta House,79.25,Food
+2025-04-12,Uber,88.05,Transportation
+2025-04-13,Pasta House,39.21,Food
+2025-04-14,Uber Eats,106.99,Food
+2025-04-15,Shell Gas,27.2,Transportation
+2025-04-16,Starbucks,98.01,Coffee
+2025-04-17,Uber Eats,49.81,Food
+2025-04-18,Uber Eats,10.57,Food
+2025-04-19,Swarovski,11.65,Shopping
+2025-04-20,Shell Gas,56.37,Transportation
+2025-04-21,Pasta House,64.31,Food
+2025-04-22,Amazon,136.5,Shopping
+2025-04-23,Walmart,77.96,Groceries
+2025-04-24,Cineplex,129.76,Entertainment
+2025-04-25,Halibut House,75.98,Food
+2025-04-26,Amazon,78.28,Shopping
+2025-04-27,Fido,82.64,Utilities
+2025-04-28,Pasta House,84.75,Food
+2025-04-29,Uber Eats,110.02,Food
+2025-04-30,Ken Sushi,28.54,Food
+2025-05-01,Pandora,20.86,Shopping
+2025-05-02,Electicity,41.04,Utilities
+2025-05-03,Pasta House,40.66,Food
+2025-05-04,Netflix,89.18,Entertainment
+2025-05-05,Chipotle,84.98,Food
+2025-05-06,Tim Hortons,119.23,Coffee
+2025-05-07,Apple Store,98.36,Shopping
+2025-05-08,Apple Store,138.31,Shopping
+2025-05-09,Cineplex,36.83,Entertainment
+2025-05-10,Apple Store,20.64,Shopping
+2025-05-11,Netflix,57.25,Entertainment
+2025-05-12,Starbucks,78.06,Coffee
+2025-05-13,Chipotle,142.13,Food
+2025-05-14,Amazon,62.86,Shopping
+2025-05-15,Fido,104.75,Utilities
+2025-05-16,Halibut house,51.74,Food
+2025-05-17,Electicity,61.4,Utilities
+2025-05-18,Chungchun,121.44,Food
+2025-05-19,ViaRail,124.77,Transportation
+2025-05-20,Netflix,16.7,Entertainment
+2025-05-21,Chipotle,51.89,Food
+2025-05-22,Netflix,36.85,Entertainment
+2025-05-23,Netflix,142.34,Entertainment
+2025-05-24,Fido,42.35,Utilities
+2025-05-25,Walmart,130.43,Groceries
+2025-05-26,Pandora,58.11,Shopping
+2025-05-27,Uber,113.4,Transportation
+2025-05-28,ViaRail,45.31,Transportation
+2025-05-29,Chipotle,122.02,Food
+2025-05-30,ViaRail,148.12,Transportation
+2025-05-31,Chipotle,101.65,Food
+2025-06-01,ViaRail,138.36,Transportation
+2025-06-02,Chipotle,14.77,Food
+2025-06-03,Electicity,21.4,Utilities
+2025-06-04,Electicity,42.09,Utilities
+2025-06-05,Halibut House,132.04,Food
+2025-06-06,Chipotle,84.3,Food
+2025-06-07,Uber Eats,48.63,Food
+2025-06-08,Walmart,95.78,Groceries
+2025-06-09,Netflix,120.4,Entertainment
+2025-06-10,Fido,55.17,Utilities
+2025-06-11,Halibut House,86.58,Food
+2025-06-12,Cineplex,8.66,Entertainment
+2025-06-13,Walmart,100.19,Groceries
+2025-06-14,Chipotle,81.4,Food
+2025-06-15,Shell Gas,40.32,Transportation
+2025-06-16,Chipotle,46.04,Food
+2025-06-17,Halibut House,48.07,Food
+2025-06-18,Netflix,45.78,Entertainment
+2025-06-19,Swarovski,107.89,Shopping
+2025-06-20,Electicity,41.63,Utilities
+2025-06-21,Walmart,47.47,Groceries
+2025-06-22,Ken Sushi,99.67,Food
+2025-06-23,Electicity,31.78,Utilities
+2025-06-24,Cineplex,79.87,Entertainment
+2025-06-25,Walmart,16.46,Groceries
+2025-06-26,Uber Eats,79.71,Food
+2025-06-27,Cineplex,53.15,Entertainment
+2025-06-28,Halibut house,43.98,Food
+2025-06-29,Chipotle,139.06,Food
+2025-06-30,Chipotle,42.27,Food
+2025-07-01,Halibut House,36.22,Food
+2025-07-02,Halibut House,66.0,Food
+2025-07-03,Fido,122.57,Utilities
+2025-07-04,Uber,83.04,Transportation
+2025-07-05,Halibut House,52.14,Food
+2025-07-06,Amazon,63.1,Shopping
+2025-07-07,Electicity,14.24,Utilities
+2025-07-08,Chungchun,131.14,Food
+2025-07-09,Swarovski,105.22,Shopping
+2025-07-10,Chungchun,139.68,Food
+2025-07-11,Starbucks,10.39,Coffee
+2025-07-12,Apple Store,130.79,Shopping
+2025-07-13,Walmart,77.46,Groceries
+2025-07-14,Cineplex,47.11,Entertainment
+2025-07-15,Pandora,123.62,Shopping
+2025-07-16,Pasta House,99.81,Food
+2025-07-17,Chungchun,136.42,Food
+2025-07-18,Electicity,93.21,Utilities
+2025-07-19,Fido,9.59,Utilities
+2025-07-20,Starbucks,125.86,Coffee
+2025-07-21,Ken Sushi,29.27,Food
+2025-07-22,Uber,35.99,Transportation
+2025-07-23,Uber Eats,5.03,Food
+2025-07-24,Shell Gas,54.17,Transportation
+2025-07-25,Fido,97.83,Utilities
+2025-07-26,ViaRail,35.74,Transportation
+2025-07-27,Swarovski,88.89,Shopping
+2025-07-28,Electicity,79.95,Utilities
+2025-07-29,Pasta House,12.01,Food
+2025-07-30,Amazon,118.66,Shopping
+2025-07-31,Halibut house,141.68,Food
+2025-08-01,Uber Eats,119.16,Food
+2025-08-02,Electicity,17.96,Utilities
+2025-08-03,Fido,17.49,Utilities
+2025-08-04,Swarovski,118.08,Shopping
+2025-08-05,Shell Gas,81.5,Transportation
+2025-08-06,Shell Gas,120.2,Transportation
+2025-08-07,Walmart,116.97,Groceries
+2025-08-08,Electicity,11.46,Utilities
+2025-08-09,Starbucks,142.53,Coffee
+2025-08-10,Halibut House,86.15,Food
+2025-08-11,Chungchun,102.71,Food
+2025-08-12,Cineplex,142.79,Entertainment
+2025-08-13,Electicity,32.56,Utilities
+2025-08-14,Cineplex,39.5,Entertainment
+2025-08-15,Tim Hortons,67.33,Coffee
+2025-08-16,Netflix,21.02,Entertainment
+2025-08-17,Uber Eats,146.18,Food
+2025-08-18,Chungchun,75.51,Food
+2025-08-19,Cineplex,69.38,Entertainment
+2025-08-20,Tim Hortons,72.35,Coffee
+2025-08-21,Swarovski,149.64,Shopping
+2025-08-22,Chungchun,147.55,Food
+2025-08-23,Walmart,26.75,Groceries
+2025-08-24,Halibut house,126.91,Food
+2025-08-25,ViaRail,13.67,Transportation
+2025-08-26,Halibut house,42.04,Food
+2025-08-27,Amazon,23.92,Shopping
+2025-08-28,Halibut House,130.33,Food
+2025-08-29,ViaRail,7.97,Transportation
+2025-08-30,Halibut house,83.31,Food
+2025-08-31,Uber,118.52,Transportation
+2025-09-01,Starbucks,77.52,Coffee
+2025-09-02,Shell Gas,140.9,Transportation
+2025-09-03,Halibut house,92.57,Food
+2025-09-04,Shell Gas,67.08,Transportation
+2025-09-05,Fido,82.54,Utilities
+2025-09-06,Fido,104.94,Utilities
+2025-09-07,Uber,116.86,Transportation
+2025-09-08,Fido,141.16,Utilities
+2025-09-09,Walmart,64.96,Groceries
+2025-09-10,Pandora,121.41,Shopping
+2025-09-11,Ken Sushi,46.18,Food
+2025-09-12,Amazon,19.7,Shopping
+2025-09-13,Chungchun,28.87,Food
+2025-09-14,Walmart,53.2,Groceries
+2025-09-15,Halibut house,105.47,Food
+2025-09-16,Pandora,59.38,Shopping
+2025-09-17,Uber Eats,73.84,Food
+2025-09-18,Cineplex,147.45,Entertainment
+2025-09-19,Walmart,108.49,Groceries
+2025-09-20,Electicity,25.35,Utilities
+2025-09-21,Ken Sushi,60.46,Food
+2025-09-22,Uber Eats,138.7,Food
+2025-09-23,Uber,23.34,Transportation
+2025-09-24,Amazon,16.07,Shopping
+2025-09-25,Apple Store,91.76,Shopping
+2025-09-26,Netflix,103.56,Entertainment
+2025-09-27,Uber,41.63,Transportation
+2025-09-28,Uber Eats,104.42,Food
+2025-09-29,Netflix,49.75,Entertainment
+2025-09-30,Halibut house,139.42,Food
+2025-10-01,ViaRail,141.31,Transportation
+2025-10-02,Netflix,33.62,Entertainment
+2025-10-03,ViaRail,108.74,Transportation
+2025-10-04,Netflix,29.81,Entertainment
+2025-10-05,Electicity,80.32,Utilities
+2025-10-06,Apple Store,109.24,Shopping
+2025-10-07,Electicity,73.21,Utilities
+2025-10-08,Pasta House,56.96,Food
+2025-10-09,Uber Eats,148.08,Food
+2025-10-10,Pandora,112.2,Shopping
+2025-10-11,Netflix,144.64,Entertainment
+2025-10-12,Fido,120.73,Utilities
+2025-10-13,Cineplex,132.98,Entertainment
+2025-10-14,Amazon,95.93,Shopping
+2025-10-15,Ken Sushi,48.95,Food
+2025-10-16,Chungchun,46.43,Food
+2025-10-17,Shell Gas,28.89,Transportation
+2025-10-18,Starbucks,51.6,Coffee
+2025-10-19,Shell Gas,26.33,Transportation
+2025-10-20,Uber Eats,30.8,Food
+2025-10-21,Electicity,8.33,Utilities
+2025-10-22,Apple Store,5.81,Shopping
+2025-10-23,ViaRail,98.06,Transportation
+2025-10-24,Chungchun,124.17,Food
+2025-10-25,Amazon,104.84,Shopping
+2025-10-26,Pandora,12.66,Shopping
+2025-10-27,Uber Eats,15.4,Food
+2025-10-28,Uber,74.3,Transportation
+2025-10-29,Fido,95.44,Utilities
+2025-10-30,Ken Sushi,87.27,Food
+2025-10-31,Apple Store,23.04,Shopping
+2025-11-01,Tim Hortons,8.85,Coffee
+2025-11-02,Pandora,23.72,Shopping
+2025-11-03,Amazon,20.31,Shopping
+2025-11-04,Cineplex,103.99,Entertainment
+2025-11-05,Walmart,149.9,Groceries
+2025-11-06,Cineplex,106.74,Entertainment
+2025-11-07,Chipotle,100.08,Food
+2025-11-08,Pandora,76.57,Shopping
+2025-11-09,Amazon,130.15,Shopping
+2025-11-10,Ken Sushi,56.2,Food
+2025-11-11,Walmart,89.71,Groceries
+2025-11-12,ViaRail,65.93,Transportation
+2025-11-13,Shell Gas,93.88,Transportation
+2025-11-14,Apple Store,65.95,Shopping
+2025-11-15,Amazon,48.63,Shopping
+2025-11-16,Amazon,105.61,Shopping
+2025-11-17,Swarovski,91.87,Shopping
+2025-11-18,Uber Eats,96.46,Food
+2025-11-19,ViaRail,111.88,Transportation
+2025-11-20,Apple Store,58.93,Shopping
+2025-11-21,Tim Hortons,110.05,Coffee
+2025-11-22,Electicity,7.9,Utilities
+2025-11-23,ViaRail,145.6,Transportation
+2025-11-24,Fido,6.71,Utilities
+2025-11-25,Walmart,124.35,Groceries
+2025-11-26,Pasta House,11.7,Food
+2025-11-27,Pasta House,127.1,Food
+2025-11-28,Apple Store,125.95,Shopping
+2025-11-29,Netflix,38.88,Entertainment
+2025-11-30,Shell Gas,143.93,Transportation
+2025-12-01,Pasta House,39.68,Food
+2025-12-02,Shell Gas,16.74,Transportation
+2025-12-03,Walmart,14.74,Groceries
+2025-12-04,Pandora,88.0,Shopping
+2025-12-05,Halibut House,23.9,Food
+2025-12-06,Electicity,80.58,Utilities
+2025-12-07,Cineplex,79.65,Entertainment
+2025-12-08,Halibut house,21.25,Food
+2025-12-09,Ken Sushi,98.07,Food
+2025-12-10,Swarovski,138.04,Shopping
+2025-12-11,Uber,147.02,Transportation
+2025-12-12,Fido,105.36,Utilities
+2025-12-13,Cineplex,89.32,Entertainment
+2025-12-14,Netflix,72.55,Entertainment
+2025-12-15,Cineplex,69.11,Entertainment
+2025-12-16,Pasta House,52.88,Food
+2025-12-17,ViaRail,137.31,Transportation
+2025-12-18,Uber Eats,62.32,Food
+2025-12-19,Pandora,51.27,Shopping
+2025-12-20,ViaRail,123.2,Transportation
+2025-12-21,Uber,136.45,Transportation
+2025-12-22,ViaRail,26.18,Transportation
+2025-12-23,Apple Store,131.7,Shopping
+2025-12-24,Starbucks,134.4,Coffee
+2025-12-25,Apple Store,59.31,Shopping
+2025-12-26,Pasta House,109.24,Food
+2025-12-27,Pandora,43.36,Shopping
+2025-12-28,Electicity,117.19,Utilities
+2025-12-29,Uber Eats,134.78,Food
+2025-12-30,Tim Hortons,55.02,Coffee
+2025-12-31,Uber,136.02,Transportation
+2026-01-01,ViaRail,65.35,Transportation
+2026-01-02,Uber Eats,45.73,Food
+2026-01-03,Swarovski,48.19,Shopping
+2026-01-04,Halibut House,96.78,Food
+2026-01-05,Starbucks,72.07,Coffee
+2026-01-06,Uber,65.35,Transportation
+2026-01-07,Cineplex,92.22,Entertainment
+2026-01-08,Netflix,66.56,Entertainment
+2026-01-09,Shell Gas,55.89,Transportation
+2026-01-10,Amazon,144.77,Shopping
+2026-01-11,ViaRail,109.98,Transportation
+2026-01-12,Cineplex,141.16,Entertainment
+2026-01-13,Chungchun,6.88,Food
+2026-01-14,Starbucks,34.69,Coffee
+2026-01-15,Chipotle,34.18,Food
+2026-01-16,Apple Store,34.76,Shopping
+2026-01-17,Starbucks,23.95,Coffee
+2026-01-18,ViaRail,94.4,Transportation
+2026-01-19,Starbucks,58.38,Coffee
+2026-01-20,Tim Hortons,21.51,Coffee
+2026-01-21,Tim Hortons,16.49,Coffee
+2026-01-22,Apple Store,115.32,Shopping
+2026-01-23,Pandora,100.0,Shopping
+2026-01-24,Swarovski,133.53,Shopping
+2026-01-25,Walmart,72.63,Groceries
+2026-01-26,Uber Eats,70.25,Food
+2026-01-27,Pandora,24.05,Shopping
+2026-01-28,Halibut House,122.86,Food
+2026-01-29,Ken Sushi,147.34,Food
+2026-01-30,Chungchun,97.42,Food
+2026-01-31,Swarovski,42.22,Shopping
+2026-02-01,Starbucks,91.61,Coffee
+2026-02-02,Halibut House,81.47,Food
+2026-02-03,Pasta House,23.55,Food
+2026-02-04,Fido,115.12,Utilities
+2026-02-05,Halibut House,91.73,Food
+2026-02-06,Halibut house,86.87,Food
+2026-02-07,Cineplex,127.29,Entertainment
+2026-02-08,Pasta House,18.42,Food
+2026-02-09,Electicity,22.95,Utilities
+2026-02-10,Uber,127.35,Transportation
+2026-02-11,Fido,25.65,Utilities
+2026-02-12,Uber,79.08,Transportation
+2026-02-13,Amazon,132.47,Shopping
+2026-02-14,Uber,77.9,Transportation
+2026-02-15,Uber Eats,91.19,Food
+2026-02-16,Tim Hortons,112.37,Coffee
+2026-02-17,Amazon,134.28,Shopping
+2026-02-18,Pandora,110.5,Shopping
+2026-02-19,Walmart,16.57,Groceries
+2026-02-20,Shell Gas,9.88,Transportation
+2026-02-21,Ken Sushi,100.49,Food
+2026-02-22,Ken Sushi,63.25,Food
+2026-02-23,Chungchun,36.58,Food
+2026-02-24,Starbucks,148.4,Coffee
+2026-02-25,Apple Store,148.05,Shopping
+2026-02-26,Pasta House,96.4,Food
+2026-02-27,Walmart,52.87,Groceries
+2026-02-28,Starbucks,34.37,Coffee
+2026-03-01,Chipotle,99.02,Food
+2026-03-02,Pasta House,42.27,Food
+2026-03-03,Tim Hortons,8.34,Coffee
+2026-03-04,Fido,30.19,Utilities
+2026-03-05,Amazon,77.69,Shopping
+2026-03-06,Amazon,40.49,Shopping
+2026-03-07,Uber Eats,12.7,Food
+2026-03-08,Cineplex,141.54,Entertainment
+2026-03-09,Starbucks,34.52,Coffee
+2026-03-10,Pandora,120.84,Shopping
+2026-03-11,Uber,94.85,Transportation
+2026-03-12,Swarovski,35.25,Shopping
+2026-03-13,Swarovski,58.16,Shopping
+2026-03-14,Uber Eats,63.41,Food
+2026-03-15,Halibut house,47.9,Food
+2026-03-16,Netflix,90.84,Entertainment
+2026-03-17,Shell Gas,97.69,Transportation
+2026-03-18,Uber,25.53,Transportation
+2026-03-19,Chungchun,128.45,Food
+2026-03-20,Cineplex,92.85,Entertainment
+2026-03-21,Halibut House,76.72,Food
+2026-03-22,Uber,132.32,Transportation
+2026-03-23,Starbucks,128.27,Coffee
+2026-03-24,Fido,8.97,Utilities
+2026-03-25,Electicity,128.5,Utilities
+2026-03-26,Amazon,78.56,Shopping
+2026-03-27,Halibut House,59.17,Food
+2026-03-28,Starbucks,144.35,Coffee
+2026-03-29,Uber,24.2,Transportation
+2026-03-30,Halibut House,93.65,Food
+2026-03-31,Apple Store,80.38,Shopping
+2026-04-01,Starbucks,72.08,Coffee
+2026-04-02,Uber Eats,57.21,Food
+2026-04-03,Ken Sushi,57.55,Food
+2026-04-04,Pasta House,130.14,Food
+2026-04-05,Pandora,71.78,Shopping

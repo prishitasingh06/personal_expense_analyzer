@@ -211,8 +211,6 @@ __marimo__/
 *.xlsx
 *.json
 
-# Models
-*.pkl
 
 # Logs
 *.log
@@ -220,4 +218,3 @@ __marimo__/
 # Mac-specific
 .DS_Store
 
-app/expense_a.csv
