@@ -125,6 +125,27 @@ If the trained model file is missing, the app will:
 2. Train a machine learning model
 3. Save it automatically for future predictions
 ---
+Budgeting & Personalized Recommendations
+
+1. Suggested Budget per Category
+
+    The app calculates average monthly spending per category.
+    It provides recommended budgets with a small buffer for safe spending.
+    Users can quickly see how much they should ideally spend in each category.
+
+2. Overspending Alerts
+
+    Highlights categories where current spending exceeds the recommended budget helping them control finances proactively.
+
+3. Unusual Transactions
+
+    Detects transactions that are significantly higher than average for that category.
+    Helps users spot unexpected expenses or potential fraud.
+
+4. Recurring Payments / Subscriptions
+
+    Identifies repeating transactions such as Grocery, Netflix, or utility bills.
+    Helps users track subscriptions and avoid surprises.
 
 # Tech Stack
 
