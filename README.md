@@ -8,6 +8,78 @@ I have built a Streamlit-based web application that helps users analyze and cate
 🔗 **GitHub Repository:** https://github.com/prishitasingh06/personal_expense_analyzer
 
 ---
+# ML Methodology
+
+This project follows a structured machine learning workflow to automatically classify financial transactions into expense categories. I have tried to explain it as thoroughly as possible-
+
+### 1. Data Preparation
+
+The training dataset contains labeled financial transactions with the following fields:
+
+* Payee (merchant name)
+* Transaction amount
+* Transaction date
+* Category (target label)
+
+Data preprocessing includes:
+
+* Cleaning and normalizing merchant names
+* Converting dates to datetime format
+* Extracting day of week and month
+* Handling missing values
+* Log-transforming the transaction amount to reduce skewness
+
+### 2. Feature Engineering
+
+The model uses a combination of text features and numeric features which I have described below-
+
+**Text Features**
+
+* Merchant names are transformed using **TF-IDF vectorization**
+* Uses **unigrams and bigrams**
+* Maximum 3000 text features
+* Removes English stop words
+
+**Numeric Features**
+
+* Transaction amount
+* Log-transformed amount
+* Day of week
+* Month
+* Weekend indicator
+* Length of merchant name
+
+The text and numeric features are combined into a single feature matrix.
+
+### 3. Model Training
+
+A **Random Forest Classifier** is used for category prediction because it:
+
+* Handles mixed feature types effectively
+* Is robust to noise
+* Works well for tabular datasets
+
+Model parameters:
+
+* 200 trees
+* Maximum depth of 20
+* Fixed random seed for reproducibility
+
+The dataset is split into **training (80%) and testing (20%) sets** to evaluate performance.
+
+### 4. Prediction Pipeline
+
+For each new transaction:
+
+1. Merchant name is vectorized using the trained TF-IDF model.
+2. Numeric features are generated from the transaction amount and date.
+3. Features are combined into a single vector.
+4. The trained Random Forest model predicts the expense category.
+
+### 5. Model Persistence
+
+The trained model and vectorizer are saved using **Pickle**, enabling the application to load the model instantly during deployment without retraining.
+---
 
 # Features
 ### 1. Expense Category Prediction
