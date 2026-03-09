@@ -5,6 +5,7 @@ A personal expense analyzer with AI-powered category predictions and visual spen
 I have built a Streamlit-based web application that helps users analyze and categorize their financial transactions automatically.
 
 🔗 **Live App:** https://personalexpenseanalyzer-ygxncnzst4mc2lkpdrpcjq.streamlit.app/
+
 🔗 **GitHub Repository:** https://github.com/prishitasingh06/personal_expense_analyzer
 
 ---
